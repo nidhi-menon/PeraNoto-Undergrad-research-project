@@ -1,8 +1,14 @@
 # PeraNoto-Undergrad-research-project
-Undergrad research project in the domain of ML, using genetic algorithm to generate layouts for furniture placement 
 
+### Abstract:
+In the era of e-commerce while buying furniture online the customers obviously feel the need for visual representation of the arrangement of their furniture. Even when doing interiors of the house it's difficult to just rely on assumptions about best layouts possible and professional help may become quite expensive. It is also seen that the professional consulted may not be good enough to give efficient solutions or may give only one solution that may not cater to the customer's needs.
+To tackle such issues and give the users their peace of mind and to meet their satisfaction levels we are proposing a system, PeraNoto that aims to meet the customer needs. Currently its scope is such that it works only for one section of the house, the master bedroom. It aims at placing the basic furniture elements in it with accuracy while also providing the user with options of different possible layouts in each run. In this project, we make use of Genetic Algorithm (GA) to make a system that helps designing layouts for a master bedroom. GA is an evolutionary design model i.e. a generic population-based meta-heuristic optimization algorithm. Genetic algorithm iteratively follows a set of certain steps to reach its goal. These include usage of random population, generation of chromosomes for each possible solution from the set of inputs, calculation of fitness values after every operation and crossover between chromosomes in each generation until an optimum fitness function is reached. If even after this an optimum solution is not obtained modification in chromosome representation may also be done for better results. This modification implies performing a mutation function on a particular chromosome which is very close to the best solution possible. The only aim of the system is to deliver best possible layout to the user. And for this, PeraNoto will generate different layout designs with four being the maximum number of best layouts to be displayed at a time and one being the minimum. If at all the system is unable to generate a layout the user is prompted to try again thereby making it user friendly. It also interactive as it uses the sense of basic mathematics for checking the validity of the user's input and thus checks for errors and prompts the user. In all, PeraNoto is an attempt in using the field of evolutionary algorithm for development of systems for similar problems.
+
+### Introduction:
+In Javanese "Furniture" is known as "Perabot" and "Arrangement" is known as "Noto". Thus combining the two, the proposed system is named "PeraNoto". This system was developed as part of an undergrad research group project in the domain of ML, using genetic algorithm to generate layouts for furniture placement.
+
+### What's included?
 Included in this folder are the following submissions related to our project:
-
 1. Undergrad Research Project Report
 2. Publication Paper (IJIRSET)
 3. Publication Paper (Journal of Computer Engineering)
